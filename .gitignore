@@ -1,0 +1,5 @@
+bin/
+obj/
+.vscode/
+credentials.json
+**/__pycache__
