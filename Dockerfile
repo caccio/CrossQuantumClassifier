@@ -3,8 +3,7 @@ FROM continuumio/miniconda3
 WORKDIR /app
 
 COPY xquantum/ ./xquantum/
-COPY test.py ./
-COPY driver.py ./
+COPY *.py ./
 COPY breast-cancer-wisconsin.csv ./
 COPY credentials.json ./
 
